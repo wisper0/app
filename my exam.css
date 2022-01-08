@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+}
+#spanheader{
+    width: 30%;
+    height: 100px;
+    background-color: white;
+    float: right;
+}
+#heheader{ 
+    float: left;
+    line-height: 100px;
+    padding: 0px 15px;
+}
+#imgheader{
+    height: 80%;
+    border-radius: 50%;
+    border: 3px double black;
+    margin:2px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    background-color: tomato;
+}
+ul{
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+}
+ul li{ 
+    float: left;
+    width: 100%;
+    height: 90px;
+    line-height: 100px;
+    
+    
+}
+li a{
+    display: inline-block;
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+#divul a:hover{
+    width: 50%;
+    height: 100px;
+    background-color:rgb(71, 226, 149);
+    color: black;
+}
+main{
+    background: magenta;
+    width: 70%;
+    height: 500px;
+    float:left;
+    position: relative;
+}
+aside{
+    width: 30%;
+    height: 500px;
+    float:right;
+    background-color:rgb(39, 39, 39);
+    text-align: center;
+}
+.hediv{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.email{
+    width: 80%;
+    height: 40px;
+    border-radius:8px;
+    margin:3px;
+    border:inset;
+    background: none;
+    color: white;
+    border: 2px double black;
+    outline: none;
+}
+.password{
+    width: 80%;
+    height: 40px;
+    border-radius:8px;
+    margin: 3px;
+    border:inset;
+    background: none;
+    color: white;
+    border: 2px double black;
+    outline: none;
+}
+.submit{
+    width: 60%;
+    height: 40px;
+    border-radius: 8px;
+    margin: 3px;
+    background-color: rgb(66, 66, 233);
+}
+.forget{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px ;
+}
+.creat{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#shap{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+#pic{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+    padding: 5px;
+}
+.main{
+    background-color: mediumturquoise;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}
+.main:hover{
+    background-color: white;
+    color: black;
+
+}
+.pmain{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: monospace;
+}
+.h1main{
+    text-align: center;
+    font-size: 44px;
+    font-family: system-ui;
+}
+@media screen and (min-width:800px) and (max-width:1000) {
+  
+    #spanheader{
+        width: 50%;
+    }
+    aside{
+        width: 40%;
+    }
+    main{
+        width: 60%;
+    }
+    
+}
